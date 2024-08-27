@@ -1,6 +1,6 @@
 module.exports = (req, res) => {
   const thumbnailUrl = '/thumbnail.jpeg'; // Correct path to the local image in the public folder
-  const redirectUrl = 'https://acceleratetomb.com/ch2yu1ntxr?key=1c9429d6408587765601d92fef00b289';
+  const redirectUrl = 'https://www.google.com';
 
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end(`
